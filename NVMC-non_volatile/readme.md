@@ -25,7 +25,9 @@ flash_read(sizeof(nv_struct),(uint32_t*)&nv_struct);`
 ```
 
 Some more info:
+
 [NVMC controller](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52832.ps.v1.1%2Fsaadc.html)
+
 [Memory Layout](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52832.ps.v1.1%2Fmemory.html&anchor=memory)
 
 Be aware that it alway's uses the same place in Flash, Flash memory doesn't have unlimited write possibility. The FDS example of Nordic uses constantly different places in flash to write.
