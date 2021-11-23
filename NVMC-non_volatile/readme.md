@@ -30,4 +30,6 @@ Some more info:
 
 [Memory Layout](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52832.ps.v1.1%2Fmemory.html&anchor=memory)
 
+[Memory Map](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fsds_s140%2FSDS%2Fs1xx%2Fmem_usage%2Fmem_resource_map_usage.html)
+
 Be aware that it alway's uses the same place in Flash, Flash memory doesn't have unlimited write possibility. The FDS example of Nordic uses constantly different places in flash to write.
