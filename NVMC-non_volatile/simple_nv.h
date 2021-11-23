@@ -8,7 +8,7 @@ extern "C"{
 #include <stdbool.h>
 #include <stdint.h>
 
-
+void simple_nv_init(void);
 void flash_page_erase(void);
 void flash_write(uint32_t,uint32_t*);
 void flash_read(uint32_t, uint32_t*);
