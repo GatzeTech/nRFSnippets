@@ -1,4 +1,4 @@
-Simple library (simple_nv.c and simple_nv.h) to save some non volatile variables on a nRF chip. It uses the last page in flash. One page is 0x1000 in size. If you need more, you can set the define #define NUMBER_OF_PAGES 1 to a higher value.
+Simple library (simple_nv.c and simple_nv.h) to save some non volatile variables on a nRF chip. It uses the last page in flash. One page is 0x1000 in size.
 
 To use this library:
 
